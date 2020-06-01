@@ -1,0 +1,14 @@
+spring:
+  profiles: default
+  application:
+    name: wash-plan-service
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: car-wash
+logging:
+  level:
+    root: INFO
+server:
+  port: 9093
